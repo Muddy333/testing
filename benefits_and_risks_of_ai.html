@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Year 8 Computing - Benefits and Risks of AI</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f7fb;
+    margin:0;
+    padding:20px;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    color:#1e3a5f;
+}
+
+h2{
+    color:#2c5282;
+}
+
+.task{
+    background:#eef7ff;
+    border-left:5px solid #3182ce;
+    padding:12px;
+    margin:10px 0;
+}
+
+.afl{
+    background:#fff8dc;
+    border-left:5px solid #d69e2e;
+    padding:12px;
+    margin:10px 0;
+}
+
+button{
+    background:#3182ce;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#2b6cb0;
+}
+
+textarea{
+    width:100%;
+    min-height:100px;
+    padding:10px;
+}
+
+.correct{
+    color:green;
+    font-weight:bold;
+}
+
+.incorrect{
+    color:red;
+    font-weight:bold;
+}
+
+.score{
+    font-size:1.2em;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.card{
+    background:#f8fafc;
+    padding:15px;
+    border-radius:8px;
+    margin-top:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h1>Benefits and Risks of Artificial Intelligence (AI)</h1>
+
+<div class="section">
+<h2>Learning Objectives</h2>
+<ul>
+<li>Understand what Artificial Intelligence (AI) is.</li>
+<li>Identify benefits of AI in everyday life.</li>
+<li>Recognise risks and challenges associated with AI.</li>
+<li>Evaluate when AI can be helpful and when caution is needed.</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Starter Activity (5 Minutes)</h2>
+
+<div class="task">
+<p><strong>Think:</strong> Where have you used AI recently?</p>
+
+<p>Select all examples that might use AI:</p>
+
+<label><input type="checkbox"> Netflix recommendations</label><br>
+<label><input type="checkbox"> Voice assistants (Siri/Alexa)</label><br>
+<label><input type="checkbox"> Online maps</label><br>
+<label><input type="checkbox"> Calculator</label><br>
+<label><input type="checkbox"> Facial recognition on phones</label><br>
+</div>
+
+<div class="afl">
+<strong>AFL Check:</strong> Discuss your answers with a partner. Which examples definitely use AI?
+</div>
+</div>
+
+<div class="section">
+<h2>What is AI?</h2>
+
+<p>
+Artificial Intelligence (AI) is technology that enables computers to perform tasks
+that normally require human intelligence. AI can learn from data, recognise patterns,
+answer questions and make predictions.
+</p>
+
+<div class="task">
+<strong>Quick Task:</strong>
+In one sentence, explain AI in your own words.
+<textarea placeholder="Write your answer here..."></textarea>
+</div>
+</div>
+
+<div class="section">
+<h2>Reading Activity</h2>
+
+<div class="card">
+<h3>How AI Helps People</h3>
+
+<p>
+Artificial Intelligence is becoming part of everyday life. Streaming services use AI
+to recommend films and shows based on what users have watched before. Doctors can use
+AI systems to help identify illnesses from medical scans. In schools, AI-powered tools
+can support learning by providing feedback and helping students practise skills.
+</p>
+
+<p>
+AI can also improve safety. Some vehicles use AI to detect hazards and assist drivers.
+Businesses use AI to analyse large amounts of information much faster than humans can.
+These benefits can save time, improve accuracy and help people make better decisions.
+</p>
+
+<p>
+However, AI is not always perfect. AI systems can sometimes make mistakes because they
+learn from data that may be incomplete or biased. People may rely too heavily on AI
+without checking information. There are also concerns about privacy when AI collects
+large amounts of personal data.
+</p>
+
+<p>
+For these reasons, people need to use AI responsibly and think critically about the
+information it provides.
+</p>
+</div>
+
+<div class="task">
+<h3>Reading Comprehension Questions</h3>
+
+<ol>
+<li>Give one way AI helps people.</li>
+<li>How can AI support doctors?</li>
+<li>What does the text say about privacy?</li>
+<li>Why should people think critically about AI outputs?</li>
+</ol>
+
+<textarea placeholder="Type your answers here..."></textarea>
+</div>
+</div>
+
+<div class="section">
+<h2>Benefits vs Risks Activity</h2>
+
+<div class="task">
+<p>Decide whether each statement is a <strong>Benefit</strong> or a <strong>Risk</strong>.</p>
+
+<form id="benefitsRisksQuiz">
+
+<p>1. AI helps doctors analyse scans faster.</p>
+<label><input type="radio" name="q1" value="correct"> Benefit</label>
+<label><input type="radio" name="q1" value="wrong"> Risk</label>
+
+<p>2. AI may spread incorrect information.</p>
+<label><input type="radio" name="q2" value="wrong"> Benefit</label>
+<label><input type="radio" name="q2" value="correct"> Risk</label>
+
+<p>3. AI can save people time by automating tasks.</p>
+<label><input type="radio" name="q3" value="correct"> Benefit</label>
+<label><input type="radio" name="q3" value="wrong"> Risk</label>
+
+<p>4. AI systems may collect personal data.</p>
+<label><input type="radio" name="q4" value="wrong"> Benefit</label>
+<label><input type="radio" name="q4" value="correct"> Risk</label>
+
+<p>5. AI can personalise learning activities.</p>
+<label><input type="radio" name="q5" value="correct"> Benefit</label>
+<label><input type="radio" name="q5" value="wrong"> Risk</label>
+
+<br><br>
+
+<button type="button" onclick="checkQuiz()">Check Answers</button>
+
+<div id="quizResult"></div>
+
+</form>
+</div>
+</div>
+
+<div class="section">
+<h2>Think-Pair-Share</h2>
+
+<div class="task">
+<p><strong>Scenario:</strong></p>
+
+<p>
+A student uses an AI chatbot to complete all of their homework without checking the answers.
+</p>
+
+<p>
+Discuss:
+</p>
+
+<ul>
+<li>What benefits could the student gain?</li>
+<li>What risks might occur?</li>
+<li>How should AI be used responsibly?</li>
+</ul>
+
+<textarea placeholder="Record your ideas here..."></textarea>
+</div>
+
+<div class="afl">
+<strong>AFL Check:</strong>
+Can you explain both a benefit and a risk of AI using evidence from today's lesson?
+</div>
+</div>
+
+<div class="section">
+<h2>Challenge Task</h2>
+
+<div class="task">
+<p>
+Imagine your school introduces an AI assistant for students.
+</p>
+
+<p>Create a table showing:</p>
+
+<ul>
+<li>Three benefits</li>
+<li>Three risks</li>
+<li>One rule for responsible use</li>
+</ul>
+
+<textarea placeholder="Write your response here..."></textarea>
+</div>
+</div>
+
+<div class="section">
+<h2>Exit Ticket (Assessment for Learning)</h2>
+
+<div class="task">
+Answer these questions before leaving:
+
+<ol>
+<li>One thing I learned today is...</li>
+<li>One benefit of AI is...</li>
+<li>One risk of AI is...</li>
+<li>I feel confident explaining AI: ⭐ 1 2 3 4 5 ⭐</li>
+</ol>
+
+<textarea placeholder="Complete your exit ticket here..."></textarea>
+</div>
+</div>
+
+</div>
+
+<script>
+function checkQuiz() {
+
+let score = 0;
+let total = 5;
+
+for(let i = 1; i <= total; i++) {
+    let answer = document.querySelector(`input[name="q${i}"]:checked`);
+    if(answer && answer.value === "correct") {
+        score++;
+    }
+}
+
+let result = document.getElementById("quizResult");
+
+if(score === total){
+    result.innerHTML = "<p class='correct'>Excellent! " + score + "/" + total + "</p>";
+}
+else if(score >= 3){
+    result.innerHTML = "<p class='correct'>Good work! " + score + "/" + total + "</p>";
+}
+else{
+    result.innerHTML = "<p class='incorrect'>Keep practising. Score: " + score + "/" + total + "</p>";
+}
+}
+</script>
+
+</body>
+</html>
